@@ -1,3 +1,4 @@
+@import './sharedVariables.scss';
 // All styling
 .navbar {
     font-family: Jost;
@@ -5,9 +6,12 @@
     padding: 0.5rem 0;
     .navbar-header {
         display: flex;
-        width: 100%;
+        flex: 1;
         justify-content: space-between;
-        padding: 0rem 1rem;
+        padding: 1rem $navbar-Padding;
+        button {
+            outline: none;
+        }
     }
     img {
         width: 14rem;
@@ -20,6 +24,8 @@
     }
     .navbar-collapse {
         .navbar-nav {
+            font-family: Jost, 'sans-serif';
+            font-size: 1.5rem;
             .nav-item {
                 .nav-link {
                     color: black;
@@ -64,9 +70,6 @@
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.navbar-collapse {
-    
-}
 
 
 @import './Tablet.scss';
