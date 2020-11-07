@@ -1,0 +1,25 @@
+// All styling
+.navbar {
+    font-family: Jost;
+    color: black;
+    img {
+        width: 12rem;
+    }
+    h5 {
+        font-family: Jost;
+        font-size: .875rem;
+    }
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.navitem {
+    color: black;
+}
