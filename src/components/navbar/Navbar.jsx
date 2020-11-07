@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './style/Navbar.scss';
 import logo from '../../assets/shared/desktop/logo-dark.png';
 
@@ -17,8 +17,12 @@ const NavBar = () => {
                     <a class="nav-link" href="#">CONTACT</a>
                 </li>
             </ul>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
+                <div className="menu-btn">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                </div>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">

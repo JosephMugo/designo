@@ -1,1 +1,16 @@
 // Mobile Styling
+@media (max-width: 768px) {
+    .navbar {
+        .navbar-collapse {
+            background-color: black;
+            padding: 1rem;
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }   
+}

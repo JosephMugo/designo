@@ -23,3 +23,42 @@
 .navitem {
     color: black;
 }
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler .menu-btn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar-toggler .menu-btn .bar1, .navbar-toggler .menu-btn .bar2, .navbar-toggler .menu-btn .bar3 {
+    width: 28px;
+    height: 5px;
+    border-radius: 8px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.navbar-toggler:not(.collapsed) .menu-btn .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.navbar-toggler:not(.collapsed) .menu-btn .bar2 {
+    transform: translate(-50px);
+    opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .menu-btn .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navbar-collapse {
+    
+}
+
+
+@import './Tablet.scss';
+@import './Mobile.scss';
