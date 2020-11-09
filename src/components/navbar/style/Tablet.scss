@@ -1,1 +1,21 @@
-// Tablet Styling
+// Tablet Nav Styling
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        padding: 1.5rem 2rem;
+        .navbar-header {
+            .navbar-brand {
+                width: 10rem;
+                height: 2rem;
+            }
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

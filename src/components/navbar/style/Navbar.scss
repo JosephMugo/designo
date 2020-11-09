@@ -1,5 +1,7 @@
 @import './sharedVariables.scss';
 // All styling
+
+/* Navbar section */
 .navbar {
     font-family: Jost;
     color: black;
@@ -23,6 +25,7 @@
         font-size: .875rem;
     }
     .navbar-collapse {
+        justify-content: flex-end;
         .navbar-nav {
             font-family: Jost, 'sans-serif';
             font-size: 1.5rem;
@@ -71,6 +74,8 @@
 }
 
 
-
+/* Tablet Nav Styling */
 @import './Tablet.scss';
+
+/* Mobile Nav Styling */
 @import './Mobile.scss';
